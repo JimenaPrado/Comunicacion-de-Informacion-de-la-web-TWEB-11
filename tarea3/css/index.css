@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Lato;
+}
+
+header {
+    background-color: brown;
+}
+
+header .container-fluid{
+    background-image: url(../imagenes/fondo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+}
+
+header .row {
+    padding-top: 10%;
+}
+
+header h1{
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+header i {
+    font-size: 5rem;
+}
+
+.banner {
+    background-color: brown;
+    color: white;
+}
+
+.menu{
+    background-color: rgb(243, 243, 243);
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-weight: light;
+    color: #333;
+}
+
+
+.nav-link:hover {
+    font-size: 1.8rem;
+    color: brown;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#sec1 h3, #sec2 h3, #sec3 h3, #sec4 h3, #sec5 h3 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: brown;
+}
+
+#sec1 p, #sec2 p, #sec3 p, #sec4 p, #sec5 p {
+    font-size: 1.5rem;
+
+}
+
+.opciones h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+h4 i {
+    font-size: 1.3rem;
+
+}
+
+.opciones p {
+    font-size: 1.1rem !important;
+
+}
+
+.precio p {
+    font-size: 1.4rem !important;
+    font-weight: 800;
+    color: rgb(148, 38, 38);
+
+}
+
+#sec2{
+    background-color: rgb(243, 243, 243);
+}
+
+#sec4{
+    background-color: rgb(243, 243, 243);
+}
+
+
+#footer{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+    background-color: brown;
+    height: 20vh;
+    color: white;
+}
+
+#footer h4{
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+#footer i {
+    color: black;
+    font-size: 5rem;
+}
+
+#flechabtn {
+    font-size: 3.5rem;
+    position: fixed;
+    bottom: 100px;
+    z-index: 1000;
+    left: 80%;
+}
