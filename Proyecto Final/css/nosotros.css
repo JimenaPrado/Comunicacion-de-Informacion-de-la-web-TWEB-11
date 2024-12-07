@@ -1,0 +1,141 @@
+header {
+    background-image: url(../imagenes/bannerNosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+header h1{
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+header p{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+header .informacion{
+    padding-top: 30vh;
+}
+
+@media (max-width: 480px) {
+
+    header {
+  
+        background-color: #a3898b;
+        height: 50vh;
+        
+    }
+    
+    header h1{
+        font-size: 3em;
+        font-weight: 600;
+        padding: 0%;
+    }
+    
+    header p{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    header .informacion{
+        padding-top: 10vh;
+    }
+
+  }
+
+
+h1{
+    font-size: 4em;
+    font-weight: 550;
+    color: #685859;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#equipo {
+    background-color: #f1dadc;  /* Fondo suave y elegante */
+    padding-top: 5rem; /* Espaciado superior */
+    padding-bottom: 5rem; /* Espaciado inferior */
+}
+
+.equipo h1 {
+    color: #685859;
+    margin-bottom: 1rem;
+}
+
+.equipo p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.equipo .nav-link {
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #020202;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.equipo .nav-link.active {
+    color: #b39799;
+    border-bottom: 2px solid #b39799;  /* Línea inferior cuando está activo */
+}
+
+.equipo .nav-link:hover {
+    background-color: #70a2bf;
+    color: white !important;
+    border-radius: 5px;  /* Bordes redondeados */
+}
+
+.equipo .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;  /* Bordes redondeados */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+
+.equipo .card:hover {
+    transform: translateY(-5px);  /* Desplazamiento hacia arriba */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Sombra más pronunciada */
+}
+
+.equipo .card-body {
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.equipo .card-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #020202 !important;
+}
+
+.equipo .card-text {
+    font-size: 1em;
+    color: #111111;
+}
+
+
+i{
+    font-size: 3em;
+    color: #70a2bf;
+}
+
+.banner3 {
+    background-image: url(../imagenes/banner3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vh;
+}

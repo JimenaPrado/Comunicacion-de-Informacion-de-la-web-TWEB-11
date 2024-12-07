@@ -1,0 +1,79 @@
+header {
+    background-image: url(../imagenes/bannerEstetica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+header h1{
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+header p{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+header .informacion{
+    padding-top: 30vh;
+}
+
+@media (max-width: 480px) {
+
+    header {
+  
+        background-color: #a3898b;
+        height: 50vh;
+        
+    }
+    
+    header h1{
+        font-size: 3em;
+        font-weight: 600;
+        padding: 0%;
+    }
+    
+    header p{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    header .informacion{
+        padding-top: 10vh;
+    }
+
+  }
+
+
+h1{
+    font-size: 4em;
+    font-weight: 550;
+    color: #685859;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#formularioSusc{
+    background-color: #a3898b;
+    color: #fff;
+}
+
+#formularioSusc h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 550;
+}
+
+#formularioSusc p{
+    font-size: 1.2em;
+    font-weight: 400;
+}

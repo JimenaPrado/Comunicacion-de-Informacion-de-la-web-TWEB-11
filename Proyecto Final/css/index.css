@@ -1,0 +1,177 @@
+header {
+    background-image: url(../imagenes/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+header h1{
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #493e3e;
+}
+
+header p{
+    font-family: Lato;
+    font-size: 1.3em;
+    color: #493e3e;
+}
+
+header .informacion{
+    padding-top: 35vh;
+}
+
+@media (max-width: 480px) {
+
+    header {
+        background-image: none;
+        background-color: #a3898b;
+        height: 90vh;
+        
+    }
+    
+    header h1{
+        font-size: 2em;
+        font-weight: 600;
+        color: #fff;
+        padding: 0%;
+    }
+    
+    header p{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 1em;
+        color: #fff;
+    }
+
+    header .informacion{
+        padding-top: 10vh;
+    }
+
+  }
+
+
+h1{
+    font-size: 4em;
+    font-weight: 550;
+    color: #685859;
+}
+
+.secOfertaV p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.secOfertaV .info{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+.img-svg {
+    width: 50px;
+    height: 50px;
+}
+
+.ofertaValor p {
+    font-size: 1em;
+}
+
+
+.servicios{
+    background-color: #a3898b;
+    color: #fff;
+
+}
+
+.servicios h1{
+    font-size: 4em;
+    font-weight: 550;
+    color: #fff;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.servicios .card{
+    border: 0;
+}
+
+.servicios .card p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.blog{
+    background-color: #fbf2f3;
+}
+
+.visually-hidden{
+    font-size: 1em;
+    font-weight: 400;
+    color: #0b0b0b;
+}
+
+.blog h1{
+    color: #685859;
+}
+
+.blog .card-body p{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+#testimonios .item p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+#formularioSusc{
+    background-color: #a3898b;
+    color: #fff;
+}
+
+#formularioSusc h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 550;
+}
+
+#formularioSusc p{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#testimonios .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #testimonios img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  i{
+    font-size: 1em;
+  }
+
+  .banner2 {
+    background-image: url(../imagenes/banner2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+

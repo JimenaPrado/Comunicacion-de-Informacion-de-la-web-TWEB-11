@@ -1,0 +1,114 @@
+header {
+    background-image: url(../imagenes/bannerContacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+header h1{
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+header p{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+header .informacion{
+    padding-top: 30vh;
+}
+
+@media (max-width: 480px) {
+
+    header {
+        background-image: none;
+        background-color: #a3898b;
+        height: 90vh;
+        
+    }
+    
+    header h1{
+        font-size: 2em;
+        font-weight: 600;
+        color: #fff;
+        padding: 0%;
+    }
+    
+    header p{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 1em;
+        color: #fff;
+    }
+
+    header .informacion{
+        padding-top: 10vh;
+    }
+
+  }
+
+
+h1{
+    font-size: 4em;
+    font-weight: 550;
+    color: #685859;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+i{
+    font-size: 2rem;
+    color: rgb(24, 23, 23);
+}
+
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.accordion-header .accordion-button {
+    background-color: #a3898b; 
+    color: #ffffff; 
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.accordion-header .accordion-button:hover {
+    background-color: #8f7972; 
+}
+
+
+.accordion-header .accordion-button:not(.collapsed) {
+    background-color: #f1dadc;
+    color: rgb(24, 23, 23);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.accordion-body {
+    background-color: #f1dadc;
+    color: #5a4a48; 
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #e5c1c4;
+}
+
+
+.accordion-collapse {
+    transition: max-height 0.3s ease-in-out;
+}

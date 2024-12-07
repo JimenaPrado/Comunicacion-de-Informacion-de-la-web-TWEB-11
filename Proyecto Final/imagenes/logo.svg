@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1267.52 447.63">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-family: CastleBegale, 'Castle Begale';
+        font-size: 405.1px;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <text class="cls-2" transform="translate(0 351.22)"><tspan x="0" y="0">Sall</tspan></text>
+    <text class="cls-2" transform="translate(640.44 351.22)"><tspan x="0" y="0">e</tspan></text>
+    <text class="cls-2" transform="translate(855.14 351.22)"><tspan x="0" y="0">z</tspan></text>
+    <text class="cls-2" transform="translate(1041.88 351.22)"><tspan x="0" y="0">a</tspan></text>
+  </g>
+  <rect x="234.04" y="385.77" width="1018.08" height="13.73"/>
+</svg>

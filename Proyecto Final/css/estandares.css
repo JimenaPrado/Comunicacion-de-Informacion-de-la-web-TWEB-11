@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.logo img{
+  width: 270px;
+  padding: 50px;
+}
+
+#navbar {
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #f7f7f7dd;
+  }
+
+  .navbar {
+    background-color: rgba(239, 239, 239, 0.3);
+    font-family: Lato;
+    font-size: 1.4em;
+    font-weight: 500;
+    position: fixed;
+    z-index: 1000; 
+}
+
+.navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #2e2e2e;
+    padding-left: 100px;
+    font-family: Lato;
+    font-size: 1.1em;
+  }
+
+.navbar .nav-link:hover {
+    color: #9c6d8e;
+    text-decoration: underline;   
+  }
+
+.navbar .nav-item {
+    padding-right: 50px;
+  }
+
+.navbar .navbar-toggler {
+  
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .navbar .dropdown-item:hover {
+    text-decoration: underline;
+  }
+
+h1{
+    font-family: Lato;
+}
+
+p{
+    font-family: Lato;
+}
+
+footer img{
+  width: 100px;
+}
+
+@media (max-width: 480px) {
+  .logo img{
+    width: 100px;
+    padding: 0px;
+  }
+
+  #navbar {
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #f7f7f7;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #2e2e2e;
+    padding-left: 10px;
+    font-family: Lato;
+    font-size: 1.1em;
+  }
+
+  .navbar {
+    background-color: rgba(239, 239, 239, 0.3);
+    font-family: Lato;
+    font-size: 1.4em;
+    font-weight: 500;
+    position: relative;
+    z-index: 1000; 
+}
+
+}
+
+.btn {
+  background-color: #507c94; 
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #3c5969; 
+  color: #fff;
+}
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(130, 181, 210, 0.5); 
+}
+
+
+
+/* Ajustes generales para la visibilidad del ícono */
+.navbar-toggler {
+  border: none; /* Elimina el borde */
+  background-color: transparent; /* Fondo transparente */
+  outline: none; /* Elimina el borde de enfoque */
+  padding: 10px; /* Aumenta el área clickeable */
+}
+
+/* Ícono del botón toggle (líneas negras) */
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: transparent; /* Sin fondo */
+  border: none;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath fill="none" stroke="black" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"%3E%3C/path%3E%3C/svg%3E'); /* Líneas negras */
+}
+
+/* General Responsive Adjustments */
+@media (max-width: 992px) {
+  .logo img {
+      width: 180px; /* Reduce el tamaño del logo */
+      padding: 20px; /* Menos padding */
+  }
+
+  #navbar {
+      height: auto; /* Permite ajustar dinámicamente la altura */
+      padding: 10px 20px;
+      background-color: #f7f7f7; /* Fondo sólido */
+  }
+
+  .navbar {
+      font-size: 1.1em; /* Ajusta el tamaño de fuente */
+  }
+
+  /* Estilo del botón toggle */
+  .navbar-toggler {
+      font-size: 1.5em; /* Aumenta el tamaño del botón toggle */
+  }
+
+  .navbar-toggler-icon {
+      background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath fill="none" stroke="black" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"%3E%3C/path%3E%3C/svg%3E'); /* Reemplaza con SVG */
+      background-color: transparent; /* Elimina color de fondo innecesario */
+  }
+
+  .navbar-collapse {
+      background-color: rgba(247, 247, 247, 0.95); /* Fondo opaco */
+      padding: 15px 20px; /* Espaciado interno */
+      border-radius: 8px; /* Bordes suaves */
+  }
+
+  .nav-item {
+      padding: 10px 0; /* Espaciado vertical */
+      text-align: center; /* Centra los links */
+  }
+
+  .nav-link {
+      padding: 10px; /* Más padding para mejor clicabilidad */
+      font-size: 1em; /* Texto legible */
+  }
+
+  .dropdown-menu {
+      background-color: #f7f7f7; /* Fondo opaco */
+      border: none; /* Sin bordes */
+      text-align: center; /* Centra el texto */
+  }
+
+  .dropdown-item {
+      padding: 10px 15px; /* Espaciado amplio */
+      font-size: 1em; /* Tamaño uniforme */
+  }
+
+  .dropdown-item:hover {
+      background-color: #9c6d8e; /* Fondo distinto al pasar el mouse */
+      color: #fff; /* Contraste de texto */
+  }
+
+  /* Botón de llamada a la acción */
+  .navbar .btn {
+      width: 100%; /* Botón ocupa todo el ancho */
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 1.1em;
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas (móviles extra pequeños) */
+@media (max-width: 576px) {
+  .logo img {
+      width: 150px; /* Logo aún más pequeño */
+  }
+
+  .nav-link {
+      font-size: 0.9em; /* Tamaño de texto reducido */
+  }
+}
